@@ -86,7 +86,7 @@ PY
 
 ### Configuration
 
-Update paths in `src/b1k/training/config.py` (lines 313-331) as needed:
+Update paths in `src/b1k/training/config.py` (lines 334-378) as needed:
 
 ```python
 repo_id="behavior-1k/2025-challenge-demos",
