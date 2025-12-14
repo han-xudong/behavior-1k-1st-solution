@@ -206,6 +206,9 @@ uv run scripts/serve_b1k.py --task-checkpoint-mapping task_checkpoint_mapping.js
   --policy.dir ~/models/checkpoint_1 #path to any checkpoint
 ```
 
+We also provide the intermediate checkpoint achieved after the first stage of the model training (simultaneously on 50 tasks). It is not the part of the final submission. 
+We didn't properly evaluate it on the full dataset but our guess is that it can achieve around 15-20% q-score. You can find it [here](https://huggingface.co/IliaLarchenko/behavior_50t_checkpoint).
+
 ## 👥 Core Team
 
 - **[Ilia Larchenko](https://github.com/IliaLarchenko)**
